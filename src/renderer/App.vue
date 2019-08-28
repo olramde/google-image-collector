@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
     <router-view></router-view>
   </div>
 </template>
@@ -12,6 +17,9 @@ export default {
 
 <style>
 body {
-  background-color: #282c34;
+  background-color: #e9e9e9;
+}
+div {
+  align-content: center;
 }
 </style>
